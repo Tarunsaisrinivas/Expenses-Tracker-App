@@ -4,7 +4,6 @@
     "slug": "expenses",
     "version": "1.0.0",
     "scheme": "expenses",
-    
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -28,6 +27,20 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "762075b3-d361-4938-a5ab-4ee3e53d24f4"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/762075b3-d361-4938-a5ab-4ee3e53d24f4"
+    }
   }
 }
